@@ -7,7 +7,7 @@
 <img src="https://komarev.com/ghpvc/?username=savruun&label=views&color=7a58e0&style=for-the-badge" alt="Profile views" />
 <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%3Asavruun%2Btype%3Apr%2Bis%3Amerged&query=%24.total_count&label=merged%20PRs&color=7a58e0&style=for-the-badge" alt="Merged pull requests" />
 <img src="https://img.shields.io/badge/here%20since-2020-7a58e0?style=for-the-badge" alt="Joined 2020" />
-<a href="https://alloy-luau.github.io"><img src="https://img.shields.io/crates/v/alloy-luau?color=7a58e0&label=alloy&style=for-the-badge" alt="Alloy" /></a>
+<a href="https://alloy-luau.github.io"><img src="https://img.shields.io/github/v/release/alloy-luau/alloy?color=7a58e0&label=alloy&style=for-the-badge" alt="Alloy release" /></a>
 <a href="https://ko-fi.com/savruun"><img src="https://img.shields.io/badge/ko--fi-support-ff5e5b?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi" /></a>
 
 </div>
@@ -45,17 +45,22 @@
   <img alt="Arch Linux" src="https://img.shields.io/badge/Arch%20Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" />
 </p>
 
-## Stats
+## Activity
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=savruun&show_icons=true&hide_border=true&bg_color=0D1117&title_color=7A58E0&icon_color=7A58E0&text_color=C9D1D9&hide=issues" />
-  <img src="https://github-readme-stats.vercel.app/api?username=savruun&show_icons=true&hide_border=true&title_color=7A58E0&icon_color=7A58E0&hide=issues" alt="GitHub stats" height="165" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=savruun&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=savruun&theme=default" alt="profile details" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=savruun&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=savruun&theme=default" alt="repos per language" height="200" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=savruun&layout=compact&hide_border=true&langs_count=6&bg_color=0D1117&title_color=7A58E0&text_color=C9D1D9" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=savruun&layout=compact&hide_border=true&langs_count=6&title_color=7A58E0" alt="Top languages" height="165" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=savruun&theme=github_dark" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=savruun&theme=default" alt="most commit language" height="200" />
 </picture>
 
 <picture>
@@ -67,4 +72,12 @@
 
 ## Reach me
 
-- **Ko-fi**: [ko-fi.com/savruun](https://ko-fi.com/savruun)
+<div align="center">
+
+<a href="https://ko-fi.com/savruun"><img src="https://img.shields.io/badge/ko--fi-savruun-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi: savruun" /></a>
+&nbsp;
+<img src="https://img.shields.io/badge/discord-savruun-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord: savruun" />
+&nbsp;
+<a href="https://github.com/alloy-luau"><img src="https://img.shields.io/badge/alloy--luau-7A58E0?style=for-the-badge&logo=github&logoColor=white" alt="alloy-luau organization" /></a>
+
+</div>
