@@ -2,11 +2,12 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=30&duration=3000&pause=1200&color=7A58E0&center=true&vCenter=true&width=460&lines=hi%2C+i'm+andrew;i+build+compilers;i+build+game+systems" alt="hi, i'm andrew" />
 
-**Language design, Roblox tooling, and whatever else fits in a Rust binary.**
+**Language design, Luau tooling, and whatever else fits in a Rust binary.**
 
 <img src="https://komarev.com/ghpvc/?username=savruun&label=views&color=7a58e0&style=for-the-badge" alt="Profile views" />
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fissues%3Fq%3Dauthor%3Asavruun%2Btype%3Apr%2Bis%3Amerged&query=%24.total_count&label=merged%20PRs&color=7a58e0&style=for-the-badge" alt="Merged pull requests" />
 <img src="https://img.shields.io/badge/here%20since-2020-7a58e0?style=for-the-badge" alt="Joined 2020" />
-<a href="https://crates.io/crates/alloy-luau"><img src="https://img.shields.io/crates/v/alloy-luau?color=7a58e0&label=alloy-luau&style=for-the-badge" alt="alloy-luau on crates.io" /></a>
+<a href="https://alloy-luau.github.io"><img src="https://img.shields.io/crates/v/alloy-luau?color=7a58e0&label=alloy&style=for-the-badge" alt="Alloy" /></a>
 <a href="https://ko-fi.com/savruun"><img src="https://img.shields.io/badge/ko--fi-support-ff5e5b?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi" /></a>
 
 </div>
@@ -15,9 +16,10 @@
 
 ## What I work on
 
-- **[Alloy](https://github.com/alloy-luau/alloy)** — a strict superset of Luau that compiles to plain Luau, line for line. Written in Rust. It ships a compiler, a language server, and a VS Code extension.
-- **[Ingots](https://github.com/alloy-luau/ingots)** — compiler plugins for Alloy. An ingot runs as its own process and talks to the compiler over a framed pipe. The first one, `enamel`, turns Tailwind class names on `.alx` elements into Roblox properties.
-- **Roblox tooling** — ports and templates that remove the boring part of starting a project.
+- **[Alloy](https://alloy-luau.github.io)** is a strict superset of Luau that compiles to plain Luau, line for line. Written in Rust. It ships a compiler, a language server, and a VS Code extension.
+- **[Ingots](https://github.com/alloy-luau/ingots)** are compiler plugins for Alloy. An ingot runs as its own process and talks to the compiler over a framed pipe. The first one, `enamel`, turns Tailwind class names on `.alx` elements into Roblox properties.
+- **[larvae](https://github.com/larvae-luau/larvae)** formats, lints, and ships Luau from one parallel Rust binary.
+- **[ember](https://luaupm.com)** is a package manager for Luau. The command is `embr`.
 - Ask me about Luau type solving, parser design, or getting Rust and Roblox to agree on anything.
 
 ## Projects
@@ -26,15 +28,14 @@
 | --- | --- | --- | --- |
 | [alloy](https://github.com/alloy-luau/alloy) | A strict superset of Luau. Compiles to plain Luau, line for line. | Rust | <img alt="" src="https://img.shields.io/github/last-commit/alloy-luau/alloy?style=flat&label=&color=7a58e0" /> |
 | [ingots](https://github.com/alloy-luau/ingots) | Official compiler plugins for Alloy. | Rust | <img alt="" src="https://img.shields.io/github/last-commit/alloy-luau/ingots?style=flat&label=&color=7a58e0" /> |
-| [rbxts-shatterbox](https://github.com/savruun/rbxts-shatterbox) | Voxel destruction, simple and optimized. | Luau | <img alt="" src="https://img.shields.io/github/last-commit/savruun/rbxts-shatterbox?style=flat&label=&color=7a58e0" /> |
-| [rbxts-vex](https://github.com/savruun/rbxts-vex) | A roblox-ts port of the Vex voxelization package. | Luau | <img alt="" src="https://img.shields.io/github/last-commit/savruun/rbxts-vex?style=flat&label=&color=7a58e0" /> |
-| [Mine-Game](https://github.com/savruun/Mine-Game) | A Terraria-like game for Windows. | C++ | <img alt="" src="https://img.shields.io/github/last-commit/savruun/Mine-Game?style=flat&label=&color=7a58e0" /> |
+| [larvae](https://github.com/larvae-luau/larvae) | Format, lint, and ship Luau. One binary. | Rust | <img alt="" src="https://img.shields.io/github/last-commit/larvae-luau/larvae?style=flat&label=&color=10e694" /> |
+| [ember](https://github.com/ember-luau/ember) | One CLI for your Luau dependencies, tools, and scripts. | Rust | <img alt="" src="https://img.shields.io/github/last-commit/ember-luau/ember?style=flat&label=&color=f23c1b" /> |
 
 ## Tools
 
 <p align="center">
   <img alt="Rust" src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
-  <img alt="Lua" src="https://img.shields.io/badge/Luau-2C2D72?style=for-the-badge&logo=lua&logoColor=white" />
+  <img alt="Luau" src="https://img.shields.io/badge/Luau-1A1A1A?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB3aWR0aD0iNTIiIGhlaWdodD0iNTIiIHZpZXdCb3g9IjAgMCA1MiA1MiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeD0iMTEuODU3OSIgeT0iMS41MDUxIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHJ4PSIyIiB0cmFuc2Zvcm09InJvdGF0ZSgxNSAxMS44NTc5IDEuNTA1MSkiIGZpbGw9InVybCgjcGFpbnQwX3JhZGlhbF81MDA1XzI1KSIvPgo8cmVjdCB4PSIzNi42NDM4IiB5PSIxMy4zMjI4IiB3aWR0aD0iOCIgaGVpZ2h0PSI4IiByeD0iMC41IiB0cmFuc2Zvcm09InJvdGF0ZSgxNSAzNi42NDM4IDEzLjMyMjgpIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTQuNzQ2NiAzNi4wMTk5TDE0LjM4MTkgMzcuMzgwOEw5LjM4Mjc2IDM2LjA0MTNMOS43NDc0MiAzNC42ODA0TDE0Ljc0NjYgMzYuMDE5OVpNMTIuNTI5NSAyNi4yMTIyTDkuODYxNDcgMzYuMTY5Nkw4LjE0NDkzIDM1LjcwOTZMMTAuODEzIDI1Ljc1MjNMMTIuNTI5NSAyNi4yMTIyWk0yMC4yNDUxIDM3LjA4MjdMMjEuNzYwNSAzMS40MjdMMjMuNDE1NSAzMS44NzA1TDIxLjQzMjggMzkuMjcwMUwxOS44NzM1IDM4Ljg1MjNMMjAuMjQ1MSAzNy4wODI3Wk0yMC44ODk5IDM1LjYwNjNMMjEuNDQ3NSAzNS43NDFDMjEuMzE0MyAzNi4yMzggMjEuMTM2OCAzNi42ODE1IDIwLjkxNSAzNy4wNzE3QzIwLjY5NDQgMzcuNDU3MiAyMC40Mjg2IDM3Ljc3NDUgMjAuMTE3NiAzOC4wMjM0QzE5LjgwNzggMzguMjY3OCAxOS40NTE5IDM4LjQyOSAxOS4wNDk4IDM4LjUwN0MxOC42NDkgMzguNTgwNCAxOC4yMDAxIDM4LjU1MDUgMTcuNzAzMiAzOC40MTczQzE3LjM0MyAzOC4zMjA4IDE3LjAyNjUgMzguMTc5OCAxNi43NTM3IDM3Ljk5NDNDMTYuNDgwOSAzNy44MDg4IDE2LjI2NDQgMzcuNTc3NCAxNi4xMDQyIDM3LjI5OTlDMTUuOTQ4NSAzNy4wMjM2IDE1Ljg1ODQgMzYuNjk0MSAxNS44MzQgMzYuMzExMkMxNS44MDk1IDM1LjkyODQgMTUuODYyNiAzNS40OTMxIDE1Ljk5MzMgMzUuMDA1M0wxNy4yNzQyIDMwLjIyNDlMMTguOTIyNCAzMC42NjY1TDE3LjYzNzggMzUuNDYwNkMxNy41NjU4IDM1LjcyOTYgMTcuNTM3MiAzNS45NjM4IDE3LjU1MjIgMzYuMTYzM0MxNy41NjgzIDM2LjM1ODIgMTcuNjE2NSAzNi41MjUgMTcuNjk2NiAzNi42NjM3QzE3Ljc3NjcgMzYuODAyNSAxNy44ODM2IDM2LjkxNDIgMTguMDE3MyAzNi45OTg5QzE4LjE1MDkgMzcuMDgzNiAxOC4yOTk4IDM3LjE0NzkgMTguNDY0IDM3LjE5MTlDMTguOTMzNiAzNy4zMTc3IDE5LjMyNzMgMzcuMzI1NSAxOS42NDUyIDM3LjIxNTJDMTkuOTY4OCAzNy4xMDE1IDIwLjIyOTggMzYuOTAyNyAyMC40MjggMzYuNjE4N0MyMC42MzA5IDM2LjMzNTggMjAuNzg0OCAzNS45OTg0IDIwLjg4OTkgMzUuNjA2M1pNMjcuNjkxMyAzOS4zNTY1TDI4LjYzNjggMzUuODI3NkMyOC43MDc3IDM1LjU2MzIgMjguNzIwOSAzNS4zMjI0IDI4LjY3NjUgMzUuMTA1M0MyOC42MzIgMzQuODg4MSAyOC41MjU4IDM0LjcwMDkgMjguMzU3OSAzNC41NDM1QzI4LjE5NDUgMzQuMzg3MyAyNy45NjY5IDM0LjI3MDEgMjcuNjc1MSAzNC4xOTE5QzI3LjQwNjEgMzQuMTE5OSAyNy4xNjE0IDM0LjEwMzEgMjYuOTQwOSAzNC4xNDE4QzI2LjcyMDQgMzQuMTgwNSAyNi41MzQ3IDM0LjI2MjYgMjYuMzgzOCAzNC4zODgzQzI2LjIzMjggMzQuNTE0IDI2LjEzMTEgMzQuNjc0OSAyNi4wNzg1IDM0Ljg3MDlMMjQuNDM3MiAzNC40MzExQzI0LjUxNTQgMzQuMTM5NCAyNC42NjE4IDMzLjg3NTYgMjQuODc2NCAzMy42Mzk5QzI1LjA5MTEgMzMuNDA0MyAyNS4zNjE2IDMzLjIxNTMgMjUuNjg4IDMzLjA3MzFDMjYuMDE0NCAzMi45MzA5IDI2LjM4MSAzMi44NDgzIDI2Ljc4NzkgMzIuODI1NEMyNy4xOTQ3IDMyLjgwMjUgMjcuNjMwNyAzMi44NTMzIDI4LjA5NTcgMzIuOTc3OUMyOC42NTE5IDMzLjEyNyAyOS4xMTkzIDMzLjM1MjQgMjkuNDk3OCAzMy42NTQxQzI5Ljg4MDggMzMuOTU3MSAzMC4xNDQ3IDM0LjMzMDggMzAuMjg5NSAzNC43NzUyQzMwLjQ0MDEgMzUuMjE2MiAzMC40Mzk3IDM1LjcxOTQgMzAuMjg4MiAzNi4yODQ4TDI5LjQwNjggMzkuNTc0MkMyOS4zMTY0IDM5LjkxMTYgMjkuMjU3OSA0MC4yMjA5IDI5LjIzMTQgNDAuNTAyMUMyOS4yMTA3IDQwLjc4IDI5LjIxOTcgNDEuMDI5MiAyOS4yNTg0IDQxLjI0OTdMMjkuMjI5IDQxLjM1OTFMMjcuNTM5OCA0MC45MDY1QzI3LjUxIDQwLjcwNzkgMjcuNTA4OSA0MC40NjU3IDI3LjUzNjYgNDAuMTc5OUMyNy41NzAxIDM5Ljg5MDggMjcuNjIxNyAzOS42MTYzIDI3LjY5MTMgMzkuMzU2NVpNMjguNzM4OCAzNi40MDQ3TDI4LjQ3OTQgMzcuNDI3M0wyNy4yOTYzIDM3LjExMDNDMjYuOTkwOCAzNy4wMjg1IDI2LjcxMzkgMzYuOTg2IDI2LjQ2NTUgMzYuOTgzQzI2LjIxODMgMzYuOTc1NCAyNi4wMDI2IDM3LjAwNTUgMjUuODE4MiAzNy4wNzM0QzI1LjYzMzkgMzcuMTQxMyAyNS40ODIyIDM3LjI0MjQgMjUuMzYzMiAzNy4zNzY2QzI1LjI0NDEgMzcuNTEwOSAyNS4xNTgzIDM3LjY3NiAyNS4xMDU4IDM3Ljg3MjFDMjUuMDUzMyAzOC4wNjgxIDI1LjA1MDYgMzguMjYwNCAyNS4wOTc4IDM4LjQ0OUMyNS4xNDYyIDM4LjYzMyAyNS4yNDQ5IDM4Ljc5MzggMjUuMzkzNyAzOC45MzE0QzI1LjU0NzEgMzkuMDcwMiAyNS43NDkxIDM5LjE3MzIgMjUuOTk5OSAzOS4yNDA0QzI2LjMzNzMgMzkuMzMwOCAyNi42NDk3IDM5LjM0MTIgMjYuOTM3MSAzOS4yNzE3QzI3LjIzMDIgMzkuMTk4NyAyNy40NzY3IDM5LjA4MTUgMjcuNjc2MyAzOC45MkMyNy44NzcyIDM4Ljc1MzkgMjguMDA2NiAzOC41ODA5IDI4LjA2NDYgMzguNDAxTDI4LjQwMTkgMzkuMjc1N0MyOC4yOTcxIDM5LjQ0OCAyOC4xNDk5IDM5LjYyMzUgMjcuOTYwMyAzOS44MDI0QzI3Ljc3MDcgMzkuOTgxMiAyNy41NDI0IDQwLjE0IDI3LjI3NTYgNDAuMjc4NkMyNy4wMTQ2IDQwLjQxMzkgMjYuNzE5NCA0MC41MDM0IDI2LjM5MDEgNDAuNTQ3MUMyNi4wNjUzIDQwLjU5MiAyNS43MTE0IDQwLjU2MzEgMjUuMzI4NSA0MC40NjA1QzI0Ljg0NTIgNDAuMzMxIDI0LjQ0IDQwLjExOTggMjQuMTEyOSAzOS44MjdDMjMuNzg3IDM5LjUyOTUgMjMuNTYwOSAzOS4xODggMjMuNDM0NiAzOC44MDIzQzIzLjMwOTUgMzguNDEyIDIzLjMwMzEgMzguMDA3MiAyMy40MTU1IDM3LjU4NzdDMjMuNTIwNiAzNy4xOTU2IDIzLjY4NjMgMzYuODY4NyAyMy45MTI5IDM2LjYwNjlDMjQuMTQ1MiAzNi4zNDE3IDI0LjQzMjQgMzYuMTQ1IDI0Ljc3NDYgMzYuMDE2OEMyNS4xMjE0IDM1Ljg4OTkgMjUuNTE4NiAzNS44MzAxIDI1Ljk2NjEgMzUuODM3N0MyNi40MTQ5IDM1Ljg0MDYgMjYuOTA4MiAzNS45MTQyIDI3LjQ0NjIgMzYuMDU4M0wyOC43Mzg4IDM2LjQwNDdaTTM1LjU5MTQgNDEuMTk0OEwzNy4xMDY4IDM1LjUzOTFMMzguNzYxOCAzNS45ODI1TDM2Ljc3OTEgNDMuMzgyMUwzNS4yMTk5IDQyLjk2NDNMMzUuNTkxNCA0MS4xOTQ4Wk0zNi4yMzYyIDM5LjcxODNMMzYuNzkzOCAzOS44NTMxQzM2LjY2MDcgNDAuMzUgMzYuNDgzMiA0MC43OTM2IDM2LjI2MTQgNDEuMTgzN0MzNi4wNDA4IDQxLjU2OTMgMzUuNzc1IDQxLjg4NjUgMzUuNDYzOSA0Mi4xMzU1QzM1LjE1NDEgNDIuMzc5OSAzNC43OTgyIDQyLjU0MSAzNC4zOTYyIDQyLjYxOUMzMy45OTUzIDQyLjY5MjQgMzMuNTQ2NCA0Mi42NjI1IDMzLjA0OTUgNDIuNTI5NEMzMi42ODkzIDQyLjQzMjkgMzIuMzcyOCA0Mi4yOTE5IDMyLjEgNDIuMTA2NEMzMS44MjcyIDQxLjkyMDkgMzEuNjEwNyA0MS42ODk0IDMxLjQ1MDUgNDEuNDExOUMzMS4yOTQ4IDQxLjEzNTcgMzEuMjA0OCA0MC44MDYxIDMxLjE4MDMgNDAuNDIzM0MzMS4xNTU4IDQwLjA0MDUgMzEuMjA5IDM5LjYwNTEgMzEuMzM5NyAzOS4xMTczTDMyLjYyMDYgMzQuMzM3TDM0LjI2ODcgMzQuNzc4NkwzMi45ODQyIDM5LjU3MjZDMzIuOTEyMSAzOS44NDE2IDMyLjg4MzUgNDAuMDc1OCAzMi44OTg1IDQwLjI3NTNDMzIuOTE0NyA0MC40NzAyIDMyLjk2MjggNDAuNjM3IDMzLjA0MjkgNDAuNzc1OEMzMy4xMjMgNDAuOTE0NSAzMy4yMjk5IDQxLjAyNjIgMzMuMzYzNiA0MS4xMTA5QzMzLjQ5NzMgNDEuMTk1NiAzMy42NDYyIDQxLjI1OTkgMzMuODEwMyA0MS4zMDM5QzM0LjI3OTkgNDEuNDI5NyAzNC42NzM2IDQxLjQzNzUgMzQuOTkxNSA0MS4zMjcyQzM1LjMxNTEgNDEuMjEzNiAzNS41NzYxIDQxLjAxNDcgMzUuNzc0NCA0MC43MzA3QzM1Ljk3NzIgNDAuNDQ3OSAzNi4xMzEyIDQwLjExMDQgMzYuMjM2MiAzOS43MTgzWiIgZmlsbD0id2hpdGUiLz4KPGRlZnM+CjxyYWRpYWxHcmFkaWVudCBpZD0icGFpbnQwX3JhZGlhbF81MDA1XzI1IiBjeD0iMCIgY3k9IjAiIHI9IjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBncmFkaWVudFRyYW5zZm9ybT0idHJhbnNsYXRlKDEwLjg1NzkgNDEuNTA1MSkgcm90YXRlKC00NSkgc2NhbGUoNzMuNTM5MSkiPgo8c3RvcCBzdG9wLWNvbG9yPSIjNTA3MUVBIi8+CjxzdG9wIG9mZnNldD0iMC45OTk5IiBzdG9wLWNvbG9yPSIjMDAyMzlGIi8+CjwvcmFkaWFsR3JhZGllbnQ+CjwvZGVmcz4KPC9zdmc+Cg==" />
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
   <img alt="C#" src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
@@ -56,8 +57,13 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=savruun&layout=compact&hide_border=true&langs_count=6&title_color=7A58E0" alt="Top languages" height="165" />
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/savruun/savruun/output/snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/savruun/savruun/output/snake.svg" alt="Contribution snake" />
+</picture>
+
 </div>
 
 ## Reach me
 
-- **Ko-fi** — [ko-fi.com/savruun](https://ko-fi.com/savruun)
+- **Ko-fi**: [ko-fi.com/savruun](https://ko-fi.com/savruun)
